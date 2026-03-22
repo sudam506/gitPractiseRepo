@@ -13,8 +13,6 @@ test('Browser Context playwright test', async ({ browser }) => {
 
 test('page playwright test', async ({ page }) => {
 
-   // const userName = page.locator('#username');
-   // const signIn = page.locator.newContext("#signInBtn");
    await page.goto("https://rahulshettyacademy.com/loginpagepractice/");
 
    //get title-assertion
