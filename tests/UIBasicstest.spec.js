@@ -12,7 +12,6 @@ test('Browser Context playwright test', async ({ browser }) => {
 });
 
 test('page playwright test', async ({ page }) => {
-
    await page.goto("https://rahulshettyacademy.com/loginpagepractice/");
 
    //get title-assertion
